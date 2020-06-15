@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web project</title>
+        <link rel="stylesheet" href="style.css"
+    </head>
+    <body>
+        <h1>Number guessing game</h1>
+        <p>Try random number between 1 and 500.</p>
+        <p>You have 10 attempts to guess right answer</p><br>
+        <div id="wrapper">
+            <div class="form">
+                <label id="guess" for="guessfield" >Guess a number</label>
+                <input type="text" id="guessfield" class="guessfield" placeholder="Type number between 1 and 500">
+                <input id="subt" type="submit" value="submit guess" class="guesssubmit">
+            </div>
+            <div class="resultpass">
+                <p class="guesses"></p>
+                <p class="lastresult"></p>
+                <p class="loworhi"></p>
+            </div>
+        </div>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
